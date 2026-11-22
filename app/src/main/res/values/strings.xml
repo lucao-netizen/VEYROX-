@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">VEYROX</string>
+    <string name="brand_slogan">YOUR AI. YOUR SPACE.</string>
+    <string name="brand_hero_slogan">INTELLIGENCE. WITHOUT LIMITS.</string>
+    <string name="home_greeting">Welcome to VEYROX. What can I help you with today?</string>
+    <string name="new_chat">New Chat</string>
+    <string name="start_chatting">Start Chatting</string>
+    <string name="recent_conversations">Recent Conversations</string>
+    <string name="ai_modes_title">AI Modes</string>
+    <string name="join_veyrox_discord">Join VEYROX Discord</string>
+    <string name="join_community">Join Community</string>
+    <string name="discord_community">Discord Community</string>
+    <string name="community_headline">BUILD THE FUTURE WITH VEYROX.</string>
+    <string name="community_subtitle">Join the VEYROX community, share ideas, discover updates and connect with other users.</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+    <string name="demo_mode_badge">DEMO MODE</string>
+    <string name="live_gemini_badge">GEMINI AI</string>
+    <string name="custom_backend_badge">CUSTOM API</string>
+    <string name="error_empty_message">Please enter a message before sending.</string>
+    <string name="error_no_internet">No internet connection detected. Switch to Demo Mode in Settings or reconnect to continue.</string>
+    <string name="error_timeout">Request timed out after 60 seconds. Please try again.</string>
+    <string name="error_unavailable">AI service is temporarily unavailable. Check your connection or switch to Demo Mode.</string>
+    <string name="privacy_summary">Your conversations, titles, and preferences are stored locally on this device in an encrypted-ready Room database. When Live Gemini AI is active, prompts are transmitted securely over HTTPS via Firebase AI Logic with App Check attestation. No API keys are stored in this app. In Demo Mode, all responses are generated offline with zero network calls.</string>
+</resources>

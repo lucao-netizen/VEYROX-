@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+:root,
+[data-theme="dark"] {
+  --vx-bg: #06080d;
+  --vx-bg-elevated: #0c1018;
+  --vx-surface: #121722;
+  --vx-surface-hover: #181f2e;
+  --vx-border: rgba(148, 163, 184, 0.14);
+  --vx-border-strong: rgba(52, 120, 255, 0.4);
+  --vx-text: #f8fafc;
+  --vx-text-muted: #94a3b8;
+  --vx-text-subtle: #64748b;
+  --vx-primary: #3478ff;
+  --vx-primary-bright: #5a95ff;
+  --vx-primary-soft: rgba(52, 120, 255, 0.14);
+  --vx-discord: #5865f2;
+  --vx-code-bg: #090d14;
+  --vx-glass: rgba(8, 11, 18, 0.82);
+  --vx-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.75);
+}
+
+[data-theme="light"] {
+  --vx-bg: #f4f7fc;
+  --vx-bg-elevated: #ffffff;
+  --vx-surface: #ffffff;
+  --vx-surface-hover: #eef3fb;
+  --vx-border: rgba(15, 23, 42, 0.11);
+  --vx-border-strong: rgba(37, 99, 235, 0.4);
+  --vx-text: #0b1220;
+  --vx-text-muted: #475569;
+  --vx-text-subtle: #64748b;
+  --vx-primary: #2563eb;
+  --vx-primary-bright: #3b82f6;
+  --vx-primary-soft: rgba(37, 99, 235, 0.1);
+  --vx-discord: #5865f2;
+  --vx-code-bg: #0f172a;
+  --vx-glass: rgba(255, 255, 255, 0.86);
+  --vx-shadow: 0 18px 40px -20px rgba(15, 23, 42, 0.18);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--vx-bg);
+  color: var(--vx-text);
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.font-display {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+}
+
+.font-mono-code {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom sleek scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.22);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 120, 255, 0.5);
+}
+
+/* Syntax Highlighting (highlight.js dark slate theme for code blocks) */
+.hljs {
+  color: #e2e8f0;
+  background: transparent;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #64748b;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #7dd3fc;
+  font-weight: 500;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #fbbf24;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #86efac;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #93c5fd;
+  font-weight: 600;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #c4b5fd;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #60a5fa;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #38bdf8;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "VEYROX",
+  "description": "VEYROX — Your AI. Your Space. Futuristic AI workspace with General, Writing, Coding, and Summarizer modes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
